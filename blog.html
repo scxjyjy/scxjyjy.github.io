@@ -1,158 +1,70 @@
-﻿<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-
-    <!-- Basic Page Needs
-  ================================================== -->
-	<meta charset="utf-8">
-	<title>MyAlbum</title>
-	<meta name="description" content="Free Html5 Templates and Free Responsive Themes Designed by Kimmy">
-	<meta name="author" content="www.cssmoban.com">
-	
-    <!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <!-- CSS
-  ================================================== -->
-	<link rel="stylesheet" href="css/zerogrid.css">
-	<link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-	<link rel="stylesheet" href="css/responsiveslides.css" />
-	
-	<!--[if lt IE 8]>
-       <div style=' clear: both; text-align:center; position: relative;'>
-         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-        </a>
-      </div>
-    <![endif]-->
-    <!--[if lt IE 9]>
-		<script src="js/html5.js"></script>
-	<![endif]-->
-	
-	<link href='./images/favicon.ico' rel='icon' type='image/x-icon'/>
-	
-	<script src="js/jquery.min.js"></script>
-	<script src="js/responsiveslides.js"></script>
-	<script>
-    $(function () {
-      $("#slider").responsiveSlides({
-        auto: true,
-        pager: false,
-        nav: true,
-        speed: 500,
-        maxwidth: 960,
-        namespace: "centered-btns"
-      });
-    });
-  </script>
-    
+<title>Blog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
-<!--------------Header--------------->
-<header> 
-	<div id="logo"><a href=""><img src="./images/logo.png"/></a></div>
-	<div id="search">
-		<div class="button-search"></div>
-		<input type="text" value="Search..." onFocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onBlur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
+<div class="wrap">
+<div class="header-right">
+	<div class="logo">
+		<a href="index.html"><img src="images/logo.png" alt="" /> </a>
 	</div>
-</header>
-
-<!--------------Navigation--------------->
-
-<nav>
-	<ul>
-		<li><a href="index.html">学习生活</a></li>
-		<li><a href="blog.html">My荣誉</a></li>
-		<li><a href="gallery.html">惬意时光</a></li>
-		<li><a href="single.html">mini生活圈</a></li>
-		<li><a href="single.html">我的青春</a></li>
-	</ul>
-</nav>
-
-<!--------------Slideshow--------------->
-
-<section class="featured">
-	<div class="rslides_container">
-		<ul class="rslides" id="slider">
-			<li><img src="images/slide1.png"/></li>
-			<li><img src="images/slide2.png"/></li>
-			<li><img src="images/slide3.png"/></li>
+	<div class="menu">
+		<ul class="nav">
+		    <li><a href="Home.html">学习生活</a></li> 
+			<li ><a href="artists.html">惬意时光</a></li>
+			<li class="active"><a href="blog.html">家乡特产</a></li>	
+			<li><a href="index.html">Back</a></li>
 		</ul>
 	</div>
-</section>
-			
-<!--------------Content--------------->
-<section id="content">
-	<div class="zerogrid">
-		<div class="row">
-			<div class="main-content">
-				<div class="row">
-					<div class="col-1-3">
-						<section>
-							<div class="heading">
-								<h2><a href="blog.html">Our Company</a></h2>
-							</div>
-							<div class="content">
-								<img src="images/icon1.jpg"/>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							</div>
-						</section>
-					</div>
-					<div class="col-1-3">
-						<section>
-							<div class="heading">
-								<h2><a href="blog.html">Projects</a></h2>
-							</div>
-							<div class="content">
-								<img src="images/icon2.jpg"/>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							</div>
-						</section>
-					</div>
-					<div class="col-1-3">
-						<section>
-							<div class="heading">
-								<h2><a href="blog.html">Information</a></h2>
-							</div>
-							<div class="content">
-								<img src="images/icon3.jpg"/>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							</div>
-						</section>
-					</div>
-				</div>
-				
-				<div class="row">
-					<div class="col-2-3">
-						<article>
-							<div class="heading">
-								<h2><a href="blog.html">Welcome to Our Company</a></h2>
-							</div>
-							<div class="content">
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-								<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-							</div>
-						</article>
-					</div>
-					<div class="sidebar col-1-3">
-						<section class="">
-							<div class="heading">Special Offers</div>
-							<div class="content">
-								<img src="images/img.jpg" />
-								<p>Proin et lorem. Quisque odio. Ut gravida, pede sed convallis facilisis, magna dolor egestas dolor, non pulvinar metus magna in velit.</p>
-							</div>
-						</section>
-					</div>
-				</div>
+	<div class="clear"></div>
+</div>
+<div class="header-left">
+	<div class="main" style="margin-top: 0">
+	<div class="blog">
+		<div class="grid">
+			<h4><a>东台西瓜节启动仪式</a></h4>
+			<h5>January 3rd, 2013 , Posted by &nbsp;<a href="index.html">dontai</a></h5>
+			<div class="blog-para">
+			<p><a href="images/pic5.jpg" rel="lightbox"><img src="images/pic5.jpg" alt=""></a>"东台西瓜获得无公害认证和国家绿色食品标志。东台西瓜先后荣获中国地理标志商标、中国名牌农产品和"2014江苏农产品和地理标志商标20强"等称号。 东台西瓜连年在全国西甜瓜擂台赛上获奖，在2015年全国西甜瓜擂台赛中，东台玉菇甜瓜在全国各地300多位选手选送的西、甜瓜品种中脱颖而出，获得甜瓜综合组冠军。"</p>
+			<div class="readmore">
 			</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="grid">
+			<h4><a>辛勤的瓜农</a></h4>
+			<h5>January 3rd, 2013 , Posted by&nbsp;<a href="index.html">dongtai</a></h5>
+			<div class="blog-para">
+			<p><a href="images/pic2.jpg" rel="lightbox"><img src="images/pic6.jpg" alt=""></a>"东台西瓜产区充分利用优越的生态环境，从采用简易的竹架大棚设施到21世纪的钢架大棚、智能温室，发展保护地栽培，配套电热线加温育苗，实行春秋两季生产，为西瓜产品提前、延后和补淡上市创造了条件;通过推广应用无公害生产技术规程，对西瓜的整枝压蔓、人工授粉、疏果留果、合理施肥等群体调节技术以及防病治虫、抗旱补水等田间管理更加科学规范，使产量、质量、效益显著提高。亩产量近4000Kg，亩收入高的近万元。"
+			</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="grid">
+			<h4><a>甜甜的大西瓜</a></h4>
+			<h5>January 3rd, 2013 , Posted by &nbsp;<a href="index.html">dontai</a></h5>
+			<div class="blog-para">
+			<p><a href="images/pic3.jpg" rel="lightbox"><img src="images/pic7.jpg" alt=""></a>""东台西瓜"供应市场的大部分为小果型西瓜，一般单重为1.5~2.0KG，有晶黄果肉和鲜红瓜瓤两种类型，种子特小，外皮淡绿青色条纹。
+
+晶黄果肉型"东台西瓜":分特小凤、特小兰等品种，口感细腻、多汁，是消暑解渴佳品。
+
+鲜红瓜瓤型"东台西瓜":一般品种为早春红玉品种，糖度高、纤维少，更以其甘甜多汁、营养丰富。"</p>
+
+			<div class="readmore">
+		
+			</div>
+			</div>
+			<div class="clear"></div>
 		</div>
 	</div>
-</section>
+</div>
+</div>
+<div class="clear"></div>
+</div>
 
-
-</body></html>
+</body>
+</html>
